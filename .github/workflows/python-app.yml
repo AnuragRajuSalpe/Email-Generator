@@ -18,9 +18,5 @@ jobs:
       with:
         python-version: '3.13'  # you can change this
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
     - name: Run Python script
       run: python app.py  # replace with your file name
